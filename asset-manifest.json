@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Note-App/static/css/main.ad5ab6aa.css",
+    "main.js": "/Note-App/static/js/main.9089b8a8.js",
+    "static/media/fa-solid-900.ttf": "/Note-App/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/Note-App/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/Note-App/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/Note-App/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/Note-App/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/notes1.png": "/Note-App/static/media/notes1.f8685c08687cfe0841c8.png",
+    "static/media/fa-regular-400.woff2": "/Note-App/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Note-App/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Note-App/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/Note-App/index.html",
+    "main.ad5ab6aa.css.map": "/Note-App/static/css/main.ad5ab6aa.css.map",
+    "main.9089b8a8.js.map": "/Note-App/static/js/main.9089b8a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad5ab6aa.css",
+    "static/js/main.9089b8a8.js"
+  ]
+}
