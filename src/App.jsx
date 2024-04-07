@@ -12,7 +12,7 @@ import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
 
 function App() {
 
-  let routers = createBrowserRouter([
+  let routers = createHashRouter([
     {path: '' , element: <Layout/> , children: [
       {index: true , element:<ProtectedRoute><Home/></ProtectedRoute>},
       {path: 'register' , element: <InverseProtectedRoute><Register/></InverseProtectedRoute> },
