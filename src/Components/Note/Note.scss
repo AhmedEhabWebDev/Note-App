@@ -1,0 +1,69 @@
+.noteCard{
+    .book {
+        position: relative;
+        border-radius: 10px;
+        min-height: 300px;
+        background-color: whitesmoke;
+        -webkit-box-shadow: 0.5px 0.5px 12px #31d2f279;
+        box-shadow: 0.5px 0.5px 12px #31d2f279;
+        -webkit-transform: preserve-3d;
+        -ms-transform: preserve-3d;
+        transform: preserve-3d;
+        -webkit-perspective: 2000px;
+        perspective: 2000px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        color: #020202;
+      }
+      .book i {
+        color: #0DCAF0;
+      }
+      
+      .cover {
+        top: 0;
+        position: absolute;
+        background-color: lightgray;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+        -webkit-transform-origin: 0;
+        -ms-transform-origin: 0;
+        transform-origin: 0;
+        -webkit-box-shadow: 0.5px 0.5px 12px #31d2f279;
+        box-shadow: 0.5px 0.5px 12px #31d2f279;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+      }
+      
+      
+      .book:hover .cover {
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+        -webkit-transform: rotatey(-100deg);
+        -ms-transform: rotatey(-100deg);
+        transform: rotatey(-100deg);
+      }
+      
+      p {
+        font-size: 20px;
+        font-weight: bolder;
+      }
+
+}
